@@ -1,0 +1,17 @@
+{
+  "name": "uniplugger-example",
+  "version": "0.0.1",
+  "description": "Showing a simple use case of the Uniplugger library",
+  "main": "uniplugger-example",
+  "scripts": {
+    "start": "tsc && cd dist && node uniplugger-example.js"
+  },
+  "author": "Hazel Software Solutions",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "uniplugger": "^0.0.3"
+  }
+}
