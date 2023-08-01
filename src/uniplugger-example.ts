@@ -1,4 +1,3 @@
-
 import { Uniplugger } from "uniplugger";
 import { IDatalayer } from "./shared/iDatalayer";
 
@@ -12,10 +11,9 @@ async function main() {
     
     // Discover the plugins. Note it returns a Promise, so you'll have to await it.
     await uniplugger.discover();
-
-    // You're done! Now, simply use the plugins 
     console.log(`Number of plugins discovered = ${uniplugger.plugins.length}`);    
-    
+
+    // You're done! Now, simply use the plugins    
     console.log(`uniplugger.plugins[0].name = ${uniplugger.plugins[0].name}`);
     const data1 = uniplugger.plugins[0].getEmployeeDetails('1');
 
